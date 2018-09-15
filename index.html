@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type=text/css href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <title>GifTastic</title>
+
+</head>
+
+<body>
+    <div class="panel" id="startingButtons">
+        <div class="panel-heading">
+            <h3 class="panel name">GIFtastic!</h3>
+            <p class="funnyGifs"> click a button to see some funny gifs, or add your own!</p>
+        </div>
+        <div id="addButton" class="panel-body">
+        </div>
+        <p id="text">(click the gif to play, pause, and restart!)</p>
+
+    </div>
+    <form id="gifForm">
+        <label form="gifInput">Add a button!</label>
+        <input type="text" id="gif-input">
+        <br>
+        <input id="addGif" type="submit" value="Add">
+    </form>
+    <div style="background:transparent !important" id="gifsAppearHere" class="jumbotron myJumbotron">
+    </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
